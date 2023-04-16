@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+
+@font-face  {
+  font-family: "Source Sans Pro";
+  src: url("/bg/src/assets/fonts/SourceSansPro-Black.otf") format("otf") ;
+}
+
+
+
+body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Source Sans Pro",sans-serif;
+}
+.guess__color{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+
+}
+.color--box{
+  height: 200px;
+  width: 300px;
+  /* background: #00044443; */
+  /* background: #333; */
+}
+
+.color__selector {
+  display: flex;
+  justify-content: space-around;
+  padding: 1.4rem;
+  gap: 10px;
+  align-items: center;
+}
+.color__selector *{
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: .5rem;
+  background: #c3c3bf;
+  cursor: pointer; 
+  display: flex;
+  align-items: center;
+  
+}
+.color__selector *:hover{
+  background: #c3c3bf99;
+
+}
